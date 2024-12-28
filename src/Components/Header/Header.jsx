@@ -6,14 +6,17 @@ const Header = () => {
     return (
         <header className="header">
             <div className="logo">
-                <Link to="/"><h1>Portfolio</h1></Link>
+                <Link to="/"><h1>PORTFOLIO</h1></Link>
             </div>
             <nav className="nav-links">
-                <Link to="/">Home</Link>
-                <Link to="/about">About</Link>
-                <Link to="/services">Services</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/">HOME</Link>
+                <Link to="/about">ABOUT</Link>
+                <Link to="/services">SERVICES</Link>
+                <Link to="/contact">CONTACT</Link>
             </nav>
+            <button className='cv-btn'>
+                DOWNLOAD CV
+            </button>
         </header>
     );
 }

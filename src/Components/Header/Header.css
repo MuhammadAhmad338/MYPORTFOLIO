@@ -20,6 +20,10 @@
     font-size: 1.5rem;
 }
 
+.logo h1:hover {
+    color: black;
+}
+
 .header a:visited {
     color: inherit;
 }
@@ -37,7 +41,7 @@
 }
 
 .nav-links a:hover {
-    color: #61dafb;
+    color: black;
 }
 
 .logo a {
@@ -50,14 +54,26 @@
     font-size: 1.5rem;
 }
 
+.cv-btn {
+    padding: 0.7rem 1rem;
+    background: black;
+    color: white;
+    border: 1px white solid;
+    cursor: pointer;
+}
+
 @media (max-width: 768px) {
     .header {
         flex-direction: column;
-        padding: 1rem;
+        padding: 2rem;
     }
     
     .nav-links {
         margin-top: 1rem;
         gap: 1rem;
+    }
+
+    .cv-btn {
+        margin-top: 1rem;
     }
 }

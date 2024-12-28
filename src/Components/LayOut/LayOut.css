@@ -1,7 +1,7 @@
 
 .main-content {
-    margin-top: 60px; /* Header height */
-    min-height: calc(100vh - 120px); /* 100vh - (header + footer) */
-    padding: 20px;
+    /* margin-top: 60px; Header height */
+    /* min-height: calc(100vh - px);  */
+    /* padding: 20px; */
     overflow-y: auto;
 }
