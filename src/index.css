@@ -6,3 +6,37 @@
     font-family: "Montserrat Alternates", serif;
     box-sizing: border-box;
 }
+
+
+:root {
+    /* Primary Colors */
+    --primary-color: #61dafb;
+    --primary-dark: #0056b3;
+    --primary-light: #8fe1ff;
+  
+    /* Secondary Colors */
+    --secondary-color: #282c34;
+    --secondary-dark: #1a1e24;
+    --secondary-light: #363b44;
+  
+    /* Text Colors */
+    --text-primary: #333333;
+    --text-secondary: #666666;
+    --text-light: #ffffff;
+    --text-dark: #000000;
+  
+    /* Background Colors */
+    --bg-primary: #ffffff;
+    --bg-secondary: #f8f9fa;
+    --bg-dark: #282c34;
+  
+    /* Accent Colors */
+    --accent-success: #28a745;
+    --accent-warning: #ffc107;
+    --accent-danger: #dc3545;
+    --accent-info: #17a2b8;
+  
+    /* Border Colors */
+    --border-color: #dee2e6;
+    --border-dark: #ced4da;
+}

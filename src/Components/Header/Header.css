@@ -18,10 +18,23 @@
     color: white;
     margin: 0;
     font-size: 1.5rem;
+    border-bottom: 3px solid white;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 40px; /* Set the desired size for the avatar */
+    height: 40px;
+    border-radius: 50%; /* Makes the image circular */
+    margin-right: 10px; /* Adds spacing between the avatar and the text */
 }
 
 .logo h1:hover {
-    color: black;
+    color: white;
 }
 
 .header a:visited {
@@ -35,14 +48,19 @@
 
 .nav-links a {
     color: white;
-    text-decoration: none;
+    text-decoration: none; /* Ensures no default underline */
     font-size: 1rem;
-    transition: color 0.3s ease;
+    font-weight: bold;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    border-bottom: 2px solid transparent; /* Initial state with no visible line */
+    padding-bottom: 2px; /* Adds spacing between the text and the border */
 }
 
 .nav-links a:hover {
-    color: black;
+    color: white;
+    border-bottom: 2px solid white; /* Makes the line visible on hover */
 }
+
 
 .logo a {
     text-decoration: none;
@@ -54,13 +72,27 @@
     font-size: 1.5rem;
 }
 
-.cv-btn {
-    padding: 0.7rem 1rem;
-    background: black;
-    color: white;
-    border: 1px white solid;
+.cv-button {
+    padding: 8px 16px;
+    font-size: 1rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    border-radius: 4px;
     cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
 }
+
+.cv-button:hover {
+    background-color: var(--primary-dark);
+    color: var(--text-light);
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px var(--border-dark);
+}
+
 
 @media (max-width: 768px) {
     .header {
@@ -75,5 +107,15 @@
 
     .cv-btn {
         margin-top: 1rem;
+    }
+
+    .logo-link {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .cv-button {
+        margin-top: 10px
+
     }
 }
