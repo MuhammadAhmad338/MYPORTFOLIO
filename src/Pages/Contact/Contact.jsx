@@ -1,6 +1,6 @@
 import './Contact.css';
 import React, { useState } from 'react';
-import LayOut from '../Components/LayOut/LayOut';
+import LayOut from '../../Components/LayOut/LayOut';
 
 const Contact = () => {
   const [formData, setFormData] = useState({

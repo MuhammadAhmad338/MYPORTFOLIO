@@ -1,6 +1,6 @@
 import './About.css'
 import React from 'react'
-import LayOut from '../Components/LayOut/LayOut'
+import LayOut from '../../Components/LayOut/LayOut'
 
 const About = () => {
   return (
