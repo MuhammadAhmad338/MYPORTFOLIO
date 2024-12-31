@@ -7,7 +7,7 @@ const Services = () => {
     <LayOut>
       <div className="services-wrapper">
         <div className="services-container">
-          <h1>My Services</h1>
+          <h1>MY SERVICES</h1>
           <div className="services-grid">
             <div className="service-card">
               <i className="fab fa-react"></i>

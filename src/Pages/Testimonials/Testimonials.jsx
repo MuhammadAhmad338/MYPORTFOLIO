@@ -40,7 +40,7 @@ const Testimonials = () => {
     <LayOut>
       <div className="testimonials-wrapper">
         <div className="testimonials-container">
-          <h1>Client Testimonials</h1>
+          <h1>CLIENT TESTIMONIALS</h1>
           <div className="testimonials-grid">
             {testimonials.map((testimonial) => (
               <div key={testimonial.id} className="testimonial-card">
