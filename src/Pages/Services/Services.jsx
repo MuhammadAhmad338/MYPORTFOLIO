@@ -1,6 +1,6 @@
+import './Services.css';
 import React from 'react';
 import LayOut from '../../Components/LayOut/LayOut';
-import './Services.css';
 
 const Services = () => {
   return (
