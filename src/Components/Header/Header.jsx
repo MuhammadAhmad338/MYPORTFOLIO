@@ -1,6 +1,7 @@
 import './Header.css';
 import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
+import user from '../../assets/user.png';
 
 const Header = () => {
      const [isDownloading, setIsDownloading] = useState(false);
@@ -24,7 +25,7 @@ const Header = () => {
         <header className="header">
             <div className="logo">
                 <Link to="/" className="logo-link">
-                    <img src="/path-to-avatar-image.jpg" alt="Profile Avatar" className="avatar" />
+                    <img src={user} alt="Profile Avatar" className="avatar" />
                     <h1>AHMAD</h1>
                 </Link>
             </div>

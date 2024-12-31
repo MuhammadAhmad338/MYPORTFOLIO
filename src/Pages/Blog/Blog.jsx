@@ -1,6 +1,9 @@
+import './Blog.css';
 import React from 'react';
 import LayOut from '../../Components/LayOut/LayOut';
-import './Blog.css';
+import image1 from '../../assets/image1.jpeg';
+import image2 from '../../assets/image2.png';
+import image3 from '../../assets/image3.jpg';
 
 const Blog = () => {
   const blogPosts = [
@@ -9,7 +12,7 @@ const Blog = () => {
       title: "Getting Started with React Development",
       date: "March 15, 2024",
       category: "React",
-      image: "/blog1.jpg",
+      image: image1,
       excerpt: "Learn the fundamentals of React and building modern web applications."
     },
     {
@@ -17,7 +20,7 @@ const Blog = () => {
       title: "Flutter vs React Native",
       date: "March 10, 2024",
       category: "Mobile Development",
-      image: "/blog2.jpg",
+      image: image2,
       excerpt: "Comparing two popular frameworks for mobile app development."
     },
     {
@@ -25,7 +28,7 @@ const Blog = () => {
       title: "Best Practices in Web Development",
       date: "March 5, 2024",
       category: "Web Development",
-      image: "/blog3.jpg",
+      image: image3,
       excerpt: "Essential tips and tricks for modern web development."
     }
   ];
