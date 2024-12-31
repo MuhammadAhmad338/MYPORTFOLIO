@@ -35,10 +35,10 @@ const Footer = () => {
                 <div className="footer-section">
                     <h3>FOLLOW ME</h3>
                     <div className="social-links">
-                        <FontAwesomeIcon icon={faInstagram} size='2x' />
-                        <FontAwesomeIcon icon={faLinkedin} size='2x' />
-                        <FontAwesomeIcon icon={faFacebook} size='2x' />
-                        <FontAwesomeIcon icon={faTwitter} size='2x' />
+                        <FontAwesomeIcon icon={faInstagram} size='1x' />
+                        <FontAwesomeIcon icon={faLinkedin} size='1x' />
+                        <FontAwesomeIcon icon={faFacebook} size='1x' />
+                        <FontAwesomeIcon icon={faTwitter} size='1x' />
                     </div>
                 </div>
             </div>
