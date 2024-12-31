@@ -1,6 +1,6 @@
+import './Header.css';
 import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
-import './Header.css';
 
 const Header = () => {
      const [isDownloading, setIsDownloading] = useState(false);
@@ -30,11 +30,10 @@ const Header = () => {
             </div>
             <nav className="nav-links">
                 <Link to="/">HOME</Link>
-                <Link to="/about">ABOUT</Link>
-                <Link to="/services">SERVICES</Link>
                 <Link to="/blog">BLOG</Link>
+                <Link to="/about">ABOUT</Link>
                 <Link to="/contact">CONTACT</Link>
-                <Link to="/testimonials">TESTIMONIALS</Link>
+                <Link to="/services">SERVICES</Link>
             </nav>
             <button className='cv-button' onClick={handleDownloadCV} disabled={isDownloading}>
             {isDownloading ? 'Downloading...' : 'DOWNLOAD CV'}
