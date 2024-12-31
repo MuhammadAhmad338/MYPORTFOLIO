@@ -2,6 +2,7 @@ import './Contact.css';
 import React, { useState } from 'react';
 import LayOut from '../../Components/LayOut/LayOut';
 
+
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -46,7 +47,7 @@ const Contact = () => {
           </div>
 
           <form className="contact-form" onSubmit={handleSubmit}>
-            
+
             <div className="form-group">
               <input
                 type="text"
@@ -57,7 +58,7 @@ const Contact = () => {
                 required
               />
             </div>
-            
+
             <div className="form-group">
               <input
                 type="email"
@@ -68,7 +69,7 @@ const Contact = () => {
                 required
               />
             </div>
-            
+
             <div className="form-group">
               <input
                 type="text"
@@ -79,7 +80,7 @@ const Contact = () => {
                 required
               />
             </div>
-            
+
             <div className="form-group">
               <textarea
                 name="message"
