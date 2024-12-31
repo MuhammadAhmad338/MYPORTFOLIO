@@ -1,6 +1,6 @@
 import React from 'react';
-import LayOut from '../../Components/LayOut/LayOut';
 import './Testimonials.css';
+import LayOut from '../../Components/LayOut/LayOut';
 
 const Testimonials = () => {
   const testimonials = [

@@ -1,3 +1,4 @@
+import TestimonialDetails from './Pages/TestimonialsDetails/TestimonialsDetails';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Testimonials from './Pages/Testimonials/Testimonials';
 import Services from './Pages/Services/Services';
@@ -7,7 +8,6 @@ import Home from './Components/Home/Home';
 import About from './Pages/About/About';
 import Blog from './Pages/Blog/Blog';
 import './App.css';
-import TestimonialDetails from './Pages/TestimonialsDetails/TestimonialsDetails';
 
 function App() {
   return (
