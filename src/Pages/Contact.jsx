@@ -1,6 +1,6 @@
+import './Contact.css';
 import React, { useState } from 'react';
 import LayOut from '../Components/LayOut/LayOut';
-import './Contact.css';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -46,6 +46,7 @@ const Contact = () => {
           </div>
 
           <form className="contact-form" onSubmit={handleSubmit}>
+            
             <div className="form-group">
               <input
                 type="text"
@@ -56,6 +57,7 @@ const Contact = () => {
                 required
               />
             </div>
+            
             <div className="form-group">
               <input
                 type="email"
@@ -66,6 +68,7 @@ const Contact = () => {
                 required
               />
             </div>
+            
             <div className="form-group">
               <input
                 type="text"
@@ -76,6 +79,7 @@ const Contact = () => {
                 required
               />
             </div>
+            
             <div className="form-group">
               <textarea
                 name="message"
@@ -85,8 +89,10 @@ const Contact = () => {
                 rows="5"
                 required
               ></textarea>
+
             </div>
-            <button type="submit" className="submit-btn">SEND MESSAGE</button>        </form>
+
+            <button type="submit" className="submit-btn">SEND MESSAGE</button> </form>
         </div>
       </div>
 
