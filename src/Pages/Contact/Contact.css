@@ -65,3 +65,28 @@
   font-weight: bold;
   transition: all 0.3s ease;
 }
+
+.contact-info p {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .contact-info {
+      padding: 1rem;
+  }
+
+  .info-item {
+      gap: 0.5rem;
+  }
+
+  .info-item p {
+      font-size: 0.9rem;
+  }
+
+  .contact-main-content {
+      margin-top: 60px;
+      padding: 1rem;
+  }
+}
