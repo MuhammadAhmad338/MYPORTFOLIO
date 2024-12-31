@@ -34,6 +34,7 @@ const Header = () => {
                 <Link to="/services">SERVICES</Link>
                 <Link to="/blog">BLOG</Link>
                 <Link to="/contact">CONTACT</Link>
+                <Link to="/testimonials">TESTIMONIALS</Link>
             </nav>
             <button className='cv-button' onClick={handleDownloadCV} disabled={isDownloading}>
             {isDownloading ? 'Downloading...' : 'DOWNLOAD CV'}
