@@ -1,5 +1,9 @@
 import React from 'react';
 import './Testimonials.css';
+import image4 from '../../assets/image4.jpg';
+import image5 from '../../assets/image5.jpeg';
+import image6 from '../../assets/image6.jpeg';
+
 import LayOut from '../../Components/LayOut/LayOut';
 
 const Testimonials = () => {
@@ -8,7 +12,7 @@ const Testimonials = () => {
       id: 1,
       name: "John Doe",
       position: "CEO, Tech Corp",
-      image: "/client1.jpg",
+      image:  image4,
       rating: 5,
       text: "Working with Ahmad was a great experience. His expertise in React and Flutter development helped us create an outstanding application."
     },
@@ -16,7 +20,7 @@ const Testimonials = () => {
       id: 2,
       name: "Sarah Smith",
       position: "Product Manager",
-      image: "/client2.jpg",
+      image: image5,
       rating: 5,
       text: "Exceptional work on our mobile app. The Flutter implementation was flawless and the user experience is amazing."
     },
@@ -24,7 +28,7 @@ const Testimonials = () => {
       id: 3,
       name: "Mike Johnson",
       position: "Startup Founder",
-      image: "/client3.jpg",
+      image: image6,
       rating: 5,
       text: "Ahmad's React development skills helped turn our vision into reality. Highly recommended for any web development project."
     }
