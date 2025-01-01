@@ -3,8 +3,10 @@ import './Testimonials.css';
 import image4 from '../../assets/image4.jpg';
 import image5 from '../../assets/image5.jpeg';
 import image6 from '../../assets/image6.jpeg';
-
 import LayOut from '../../Components/LayOut/LayOut';
+import { faStar } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 const Testimonials = () => {
   const testimonials = [
@@ -36,7 +38,11 @@ const Testimonials = () => {
 
   const renderStars = (rating) => {
     return [...Array(rating)].map((_, index) => (
-      <i key={index} className="fas fa-star"></i>
+      <FontAwesomeIcon 
+        key={index} 
+        icon={faStar} 
+        className="star-icon"
+      />
     ));
   };
 
