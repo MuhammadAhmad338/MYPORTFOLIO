@@ -17,4 +17,4 @@ const LayOut = ({ children }) => {
   )
 }
 
-export default LayOut
+export default LayOut;
