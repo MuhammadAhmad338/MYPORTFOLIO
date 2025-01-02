@@ -36,7 +36,7 @@ const Header = () => {
                 <Link to="/contact">CONTACT</Link>
             </nav>
             <button className='cv-button' onClick={handleDownloadCV} disabled={isDownloading}>
-            {isDownloading ? 'Downloading...' : 'DOWNLOAD CV'}
+            {isDownloading ? 'Downloading...' : 'RESUME'}
             </button>
         </header>
     );

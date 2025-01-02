@@ -32,7 +32,7 @@ const Home = () => {
                         onClick={handleDownloadCV}
                         disabled={isDownloading}
                     >
-                        {isDownloading ? 'Downloading...' : 'Download CV'}
+                        {isDownloading ? 'Downloading...' : 'RESUME'}
                     </button>
                 </div>
             </section>
