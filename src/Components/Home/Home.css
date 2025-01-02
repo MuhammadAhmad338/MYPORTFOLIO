@@ -27,6 +27,7 @@
 
 .animated-name {
     opacity: 0;
+    color: #61dafb;
     animation: fadeInUp 0.8s ease forwards 0.3s;
 }
 

@@ -1,8 +1,8 @@
 import './Footer.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { faInstagram, faFacebook, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram, faFacebook, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
     return (
@@ -43,7 +43,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="footer-bottom">
-                <p>&copy; {new Date().getFullYear()} Ahmad. All rights reserved.</p>
+                <p>&copy; {new Date().getFullYear()} Ahmad Site. All Rights Reserved.</p>
             </div>
         </footer>
     );
