@@ -1,6 +1,6 @@
+import './Skills.css';
 import React from 'react';
 import LayOut from '../../Components/LayOut/LayOut';
-import './Skills.css';
 
 const Skills = () => {
   const skills = {

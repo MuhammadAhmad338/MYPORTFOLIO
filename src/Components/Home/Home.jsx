@@ -22,21 +22,25 @@ const Home = () => {
 
     return (
         <LayOut>
-            <section className="hero-section">
-                <div className="hero-content">
-                    <h1>Hi, I'm <span className="highlight">MUHAMMAD AHMAD</span></h1>
-                    <h2>APPLICATION DEVELOPER</h2>
-                    <p>I am a passionate application developer with experience in creating modern and responsive web and mobile applications  using Flutter, React, JavaScript, and other cutting-edge technologies.</p>
-                    <button 
-                        className="cta-button"
-                        onClick={handleDownloadCV}
-                        disabled={isDownloading}
-                    >
-                        {isDownloading ? 'Downloading...' : 'RESUME'}
-                    </button>
-                </div>
-            </section>
-        </LayOut>
+        <section className="hero-section">
+            <div className="hero-content">
+                <h1 className="animated-text">
+                    Hi, I'm <span className="highlight animated-name">MUHAMMAD AHMAD</span>
+                </h1>
+                <h2 className="animated-title">APPLICATION DEVELOPER</h2>
+                <p className="animated-description">
+                    I am a passionate application developer with experience in creating modern and responsive web and mobile applications using Flutter, React, JavaScript, and other cutting-edge technologies.
+                </p>
+                <button 
+                    className="cta-button animated-button"
+                    onClick={handleDownloadCV}
+                    disabled={isDownloading}
+                >
+                    {isDownloading ? 'Downloading...' : 'RESUME'}
+                </button>
+            </div>
+        </section>
+    </LayOut>
     );
 }
 

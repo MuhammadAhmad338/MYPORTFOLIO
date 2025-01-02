@@ -46,19 +46,21 @@
     gap: 2rem;
 }
 
+
 .nav-links a {
     color: white;
-    text-decoration: none; /* Ensures no default underline */
+    text-decoration: none;
     font-size: 1rem;
     font-weight: bold;
-    transition: color 0.3s ease, border-bottom 0.3s ease;
-    border-bottom: 2px solid transparent; /* Initial state with no visible line */
-    padding-bottom: 2px; /* Adds spacing between the text and the border */
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+    padding: 0.5rem 0;
 }
 
 .nav-links a:hover {
-    color: white;
-    border-bottom: 2px solid white; /* Makes the line visible on hover */
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+    transform: translateY(-2px);
 }
 
 
